@@ -1,0 +1,26 @@
+<!--Template of the index page.-->
+<!DOCTYPE html>
+<html>
+<% include ../templates/head %>
+<body>
+    <% if (isLoggedIn) { %>
+        <% include ../templates/header/logged-in-header %>
+    <% } else { %>
+        <% include ../templates/header/not-logged-in-header %>
+    <% } %>
+    <main>
+        <article>
+            <section>
+                <h3><%= title %></h3>
+            </section>
+            <section>
+                <img src="images/bier.jpg" />
+            </section>
+        </article>
+        <aside>
+            <section>
+            </section>
+        </aside>
+    </main> 
+    <% include ../templates/footer %>
+</body>

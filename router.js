@@ -8,6 +8,7 @@ var IndexController = require(controllerPath + "indexController");
 var RegisterController = require(controllerPath + "registerController");
 var LoginController = require(controllerPath + "loginController");
 var LogoutController = require(controllerPath + "logoutController");
+var BierController = require(controllerPath + "bierController");
 
 //GET Requests
 router.get("/", function (req, res) {
@@ -33,6 +34,11 @@ router.get("/login(.html)?", function(req, res) {
 router.get("/logout(.html)?", function(req, res) {
     var logoutController = new LogoutController();
     logoutController.executeGet(req, res);
+});
+
+router.get("/bier(.html)?", function(req, res) {
+    var bierController = new BierController();
+    bierController.executeGet(req, res);
 });
 //POST Requests
 
