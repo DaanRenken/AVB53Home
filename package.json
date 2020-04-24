@@ -5,7 +5,7 @@
   "author": "Build This!",
   "scripts": {
     "start": "nodemon main.js",
-    "stop": "nodemon main.js"
+    "stop": "pkill --signal SIGINT appNaam"
   },
   "dependencies": {
     "cookie-parser": "*",

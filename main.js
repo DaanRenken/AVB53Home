@@ -7,6 +7,9 @@ var cookieParser = require("cookie-parser");
 var bodyParser = require('body-parser');
 var session = require("express-session");
 
+process.title = appNaam
+
+
 function randomString() {
     return Math.random().toString().replace("0.", "");
 }
