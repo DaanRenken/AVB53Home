@@ -16,7 +16,8 @@
     "package.json": "^2.0.1",
     "password-hash": "*",
     "sync-mysql": "*",
-    "xss": "*"
+    "xss": "*",
+    "pkill": "*"
   },
   "devDependencies": {}
 }
