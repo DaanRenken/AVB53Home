@@ -4,7 +4,8 @@
   "description": "Anton Base Framework",
   "author": "Build This!",
   "scripts": {
-    "start": "nodemon main.js"
+    "start": "nodemon main.js",
+    "stop": "nodemon main.js"
   },
   "dependencies": {
     "cookie-parser": "*",
