@@ -4,7 +4,7 @@
   "description": "Anton Base Framework",
   "author": "Build This!",
   "scripts": {
-    "start": "nodemon main.js",
+    "start": "nodemon main.js"
   },
   "dependencies": {
     "cookie-parser": "*",
@@ -15,7 +15,7 @@
     "package.json": "^2.0.1",
     "password-hash": "*",
     "sync-mysql": "*",
-    "xss": "*",
+    "xss": "*"
   },
   "devDependencies": {}
 }
