@@ -4,7 +4,7 @@
 }
 
 header {
-    position: absolute;
+    position: static;
     height: 70px;
     top: 0px;
     left: 0px;
@@ -29,7 +29,7 @@ header h1 a {
 }
 
 nav {
-    position: absolute;
+    position: static;
     top: 100px;
     min-height: 72px;
     margin-bottom: 0px;
