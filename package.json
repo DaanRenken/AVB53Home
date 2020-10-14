@@ -15,6 +15,7 @@
     "nodemon": "*",
     "package.json": "^2.0.1",
     "password-hash": "*",
+    "sqlite3": "^5.0.0",
     "sync-mysql": "*",
     "xss": "*"
   },

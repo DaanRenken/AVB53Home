@@ -1,5 +1,5 @@
 git pull origin master
 npm stop main.js
 npm install 
-npm start createDB.js
+node createDB.js
 npm start main.js
