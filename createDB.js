@@ -11,6 +11,7 @@ db.serialize(function () {
           (
               sensorID INT UNSIGNED PRIMARY KEY,
               name VARCHAR(20) NOT NULL,
+              date TEXT,
               value REAL NOT NULL
           );`
       );
