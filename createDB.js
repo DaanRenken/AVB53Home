@@ -7,12 +7,13 @@ var db = new sqlite3.Database(file);
 db.serialize(function () {
   if (!exists) {
       db.run(
-          `CREATE TABLE Books
+          `CREATE TABLE TempSensors
           (
               sensorID INT UNSIGNED PRIMARY KEY,
               name VARCHAR(20) NOT NULL,
-              date TEXT,
-              value REAL NOT NULL
+              date TEXT NOT NULL,
+              time TEXT NOT NULL,
+              temp REAL NOT NULL
           );`
       );
   }
